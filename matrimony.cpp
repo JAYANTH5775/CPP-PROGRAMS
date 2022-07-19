@@ -89,6 +89,24 @@ public:
 
              }
 
+     
+     
+     
+      for(int i =0; i<n;i++)
+     {
+        for(int j=0;j<n;j++)
+        {
+
+        
+        if((b[i].salary+g[j].salary)>100000 && b[i].caste==g[j].caste)
+        {
+            printf("you have matched up with groom/bride")
+            g[i].print();
+            b[i].print();
+        }
+        }
+
+     }
              return 0; 
     }
 
